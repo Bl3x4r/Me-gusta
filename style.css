@@ -1,0 +1,94 @@
+/* CSS Reset */
+
+* {
+    margin-top: 0;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+/* styles to apply to body */
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: black;
+    color: white;
+}
+h1{
+    padding: 10px 20px;
+}
+ 
+.flex-container-main{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 150px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    
+}
+img{
+    height: 100px;
+    width: 100;
+    border-radius: 25%;
+}
+
+.card-avatar {
+    background-color: #fff;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+    height: 250px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+.card-up{
+    display: flex;
+    margin: 20px;
+    
+}
+.cont-up-izq{
+    flex: 1;
+    
+}
+.cont-up-der{
+    display: flex;
+    flex:4;
+    justify-content: flex-end;
+    gap: 30px;
+}
+button{
+    background-color: orange;
+    width: 75px;
+    height: 25px;
+    box-shadow: 2px 2px black;
+}
+.cont-dwn{
+    margin: 20px;
+}
+
+

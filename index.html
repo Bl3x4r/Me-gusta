@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="nav">
+            
+            <h1 class="nav-title">Network</h1>
+           
+        </div>
+
+        <div class="flex-container-main">
+
+            <div class="col-1">
+                <div class="card-avatar">
+                    <div class="avatar">
+                        <img src="/img/phil-s.jpg" alt="#">
+                    </div>
+                    <div class="contenido-avatar">
+                        <a href="#">Add an avatar</a>
+                        <h2>James Doe</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="card">
+                    <div class="card-up">
+                        <div class="cont-up-izq">
+                            <span class="nombre-post">Neil M</span>
+                        </div>
+                        <div class="cont-up-der">
+                            <span><a class="num-likes">9</a> like(s)</span>
+                            <button class="1" onclick="liked(1)">Like</button>
+                        </div>                       
+                    </div>
+                    <div class="card-dwn">
+                        <span class="cont-dwn">I just set up this new discor bot, let me know what you all think. <a href="#">link</a></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-up">
+                        <div class="cont-up-izq">
+                            <span class="nombre-post">Nichole K</span>
+                        </div>
+                        <div class="cont-up-der">
+                            <ul>
+                                <li><a class="num-likes">12</a> like(s)</li>
+                            </ul>
+                            <button class="2" onclick="liked(2)">Like</button>               
+                        </div>                       
+                    </div>
+                    <div class="card-dwn">
+                        <span class="cont-dwn">Just finished my <a href="#">next comic</a>, check it out.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-up">
+                        <div class="cont-up-izq">
+                            <span class="nombre-post">Jim R</span>
+                        </div>
+                        <div class="cont-up-der">
+                            <ul>
+                                <li><a class="num-likes">9</a> like(s)</li>
+                            </ul>
+                            
+                            <button class="3" onclick="liked(3)">Like</button>
+                        </div>                          
+                    </div>
+                    <div class="card-dwn">
+                        <span class="cont-dwn">I can't stop listening to the <a href="#">new album</a> Who else is liking it?</span>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <script src="/script.js"></script>
+    </body>
+</html>
